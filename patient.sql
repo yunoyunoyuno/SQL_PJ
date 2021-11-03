@@ -1,5 +1,5 @@
 create table patient(
-	p_id int primary key,
+    patient_id int primary key,
     fullname_p varchar(60) not null,
     app_date varchar(15),
     height float check(height >= 15 and height <= 280)not null,
